@@ -1,0 +1,6 @@
+a=3
+b=2
+c=5
+x=4
+y = a * x**2 + b * x + c 
+print("the predicted value: ",y,"units")
