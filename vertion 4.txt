@@ -1,0 +1,53 @@
+import matplotlib.pyplot as plt
+
+x_values = []
+
+y_values Π
+
+#Correct the file path using a raw string or forward slashes
+
+file_path = 'C:\Users\Sai Lokesh OneDrive\Desktop\SW Lab\Exp_1\data2.txt'
+
+with open(file path, 'r') as file:
+
+for in range(40):
+
+try:
+
+#Read and process each line
+
+a Float(file.readline().strip().split('=')[1])
+
+b float(file.readline().strip().split('=') [1])
+
+C float(file.readline().strip().split('=')[1])
+
+X float(file.readline().strip().split('=')[1])
+
+#Calculate y and append to lists
+
+y = a * x * x + bx + c
+
+x values.append(x)
+
+y_values.append(y)
+
+except (IndexError, ValueError) as e:
+
+print(f"Error reading or processing a line: (e)")
+
+continue # skip the problematic entry and move to the next
+
+#Plot the data
+
+plt.plot(x_values, y_values, marker='o', linestyle-'-', color='b')
+
+plt.title('Graph of y ax^2 + bx + c')
+
+plt.xlabel('x')
+
+plt.ylabel('y')
+
+plt.grid(True)
+
+plt.show()
