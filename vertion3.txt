@@ -1,0 +1,13 @@
+with open(C:\Users\venkatesh\OneDrive\Desktop\SW Lab\Exp_1\data.txt', 'r') as file:
+
+    a float (file.readline())
+
+    b float(file.readline())
+
+    C float(file.readline())
+
+    x= float(file.readline())
+
+y = a*x*x + bx + c
+
+print('The value of y is:", y)
